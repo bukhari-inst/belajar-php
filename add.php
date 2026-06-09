@@ -66,12 +66,6 @@
                     <input type="number" class="form-control" id="inputProductPrice" name="product_price" aria-describedby="productPriceHelp">
                     <div id="productPriceHelp" class="form-text">Enter the product price</div>
                 </div>
-                <div class="mb-3 form-check">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
