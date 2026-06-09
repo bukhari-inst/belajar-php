@@ -14,7 +14,7 @@ try {
     $products = $stmt->fetchAll();
 
     foreach ($products as $product) {
-        echo $product['name'] . "<br>";
+        echo htmlspecialchars($product['name']) . " - " . htmlspecialchars($product['price']) . "<br>";
     }
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
